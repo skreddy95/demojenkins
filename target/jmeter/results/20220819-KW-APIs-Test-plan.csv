@@ -1,0 +1,30 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1660904441381,964,login,200,OK,Mapp-APIs 1-1,text,true,,2554,527,1,1,http://150.230.133.34:9093/dx-sync/crm/v1/login,950,0,88
+1660904442998,3354,getBalance,200,OK,Mapp-APIs 1-1,text,true,,2220,1086,1,1,http://150.230.133.34:9093/dx-sync/kwp/v1/getBalance?msisdn=31635611172&bundle=ALL,3354,0,0
+1660904446870,447,getBills,200,OK,Mapp-APIs 1-1,text,true,,2369,1107,1,1,http://150.230.133.34:9093/dx-sync/brm/v1/invoice/bill/viewbill/01C303322?noOfbill=6,447,0,46
+1660904447821,716,mollie-customer-idealbanks,200,OK,Mapp-APIs 1-1,text,true,,5552,1179,1,1,http://150.230.133.34:9093/dx-sync/mollie/customer/idealbanks,716,0,0
+1660904449046,136,Changepackageplan,200,OK,Mapp-APIs 1-1,text,true,,1903,1083,1,1,http://150.230.133.34:9093/dx-sync/crm/v1/package/plan,136,0,33
+1660904449695,588,authorization bank account,200,OK,Mapp-APIs 1-1,text,true,,1656,988,1,1,http://150.230.133.34:9093/dx-sync/mollie/customer/payment/authorization,588,0,0
+1660904450796,129,get contract,200,,Mapp-APIs 1-1,text,true,,614,1127,1,1,http://150.230.133.34:8089/csmart-crmservices/crm/v1/contract,127,0,33
+1660904451440,584,oneOff,200,,Mapp-APIs 1-1,text,true,,666,1509,1,1,http://150.230.133.34:9080/mollie/customer/payment/oneoff,584,0,31
+1660904452538,306,getSubscription,200,OK,Mapp-APIs 1-1,text,true,,4211,1112,1,1,http://150.230.133.34:9093/dx-sync/crm/v1/package,305,0,39
+1660904453355,206,getProfile,200,OK,Mapp-APIs 1-1,text,true,,4478,1080,1,1,http://150.230.133.34:9093/dx-sync/crm/v1/profile,205,0,0
+1660904454071,717,getAddress,200,OK,Mapp-APIs 1-1,text,true,,2487,1095,1,1,http://150.230.133.34:9093/dx-sync/crm/v1/profile/postcode/1078GA/266,717,0,0
+1660904455308,252,countries per roaming zone,200,,Mapp-APIs 1-1,text,true,,2718,805,1,1,http://150.230.133.34:8089/csmart-crmservices/crm/v1/profile/getcountriesbyzone,252,0,43
+1660904456067,973,resume msisdn,200,,Mapp-APIs 1-1,text,true,,702,1119,1,1,http://150.230.133.34:8089/csmart-crmservices/crm/v1/services/disconnect,971,0,0
+1660904457551,371,terminateReason-getPickList,200,,Mapp-APIs 1-1,text,true,,4046,819,1,1,http://150.230.133.34:8089/csmart-crmservices/crm/v1/services?operation=getPickLists&module=HelpDesk&field=reasonforterminate,371,0,39
+1660904458434,2601,voice mail pin reset,200,,Mapp-APIs 1-1,text,true,,426,1129,1,1,http://150.230.133.34:8089/csmart-crmservices/crm/v1/profile/voicemail/reset,2600,0,0
+1660904461550,605,sim info,200,,Mapp-APIs 1-1,text,true,,442,1094,1,1,http://150.230.133.34:8089/csmart-crmservices/crm/v1/profile/siminfo,605,0,35
+1660904462662,317,getTop ups,200,,Mapp-APIs 1-1,text,true,,5136,1121,1,1,http://150.230.133.34:8089/csmart-crmservices/crm/v1/package/Netherlands?packageid=967515,316,0,0
+1660904463490,409,account detail,200,,Mapp-APIs 1-1,text,true,,1543,1154,1,1,http://150.230.133.34:9092/csmart-brmservices/brm/v1/billing/accountdetails?accountNo=01C303322&deviceId=1657514424,409,0,31
+1660904464409,1130,your active topups,200,,Mapp-APIs 1-1,text,true,,632,1256,1,1,http://150.230.133.34:8089/csmart-crmservices/crm/v1/package/bolton,1130,0,34
+1660904466044,923,suspend msisdn,200,,Mapp-APIs 1-1,text,true,,707,1158,1,1,http://150.230.133.34:8089/csmart-crmservices/crm/v1/services/disconnect,922,0,0
+1660904467477,146,FAQ,200,OK,Mapp-APIs 1-1,text,true,,5061,1092,1,1,http://150.230.133.34:9093/dx-sync/crm/v1/services/faqs?type=FAQ,146,0,38
+1660904468132,1222,update profile,200,OK,Mapp-APIs 1-1,text,true,,1648,1114,1,1,http://150.230.133.34:9093/dx-sync/crm/v1/profile,1222,0,0
+1660904469856,395,changePassword,200,OK,Mapp-APIs 1-1,text,true,,2003,1175,1,1,http://150.230.133.34:9093/dx-sync/crm/v1/profile/password/change,395,0,41
+1660904470758,538,ForgotPassword,200,OK,Mapp-APIs 1-1,text,true,,1523,763,1,1,http://150.230.133.34:9093/dx-sync/crm/v1/profile/password/forgot,538,0,0
+1660904471803,1061,package-bolton,200,,Mapp-APIs 1-1,text,true,,644,1232,1,1,http://150.230.133.34:8089/csmart-crmservices/crm/v1/package/bolton,1057,0,31
+1660904473368,461,usage aggregation,200,OK,Mapp-APIs 1-1,text,true,,2811,1149,1,1,http://150.230.133.34:9093/dx-sync/brm/v1/invoice/bill/serviceUsagedetails/01C303322?start=07-07-2022&end=08-13-2022&modeStr=summary,461,0,37
+1660904474341,332,usage specification,200,OK,Mapp-APIs 1-1,text,true,,3733,1146,1,1,http://150.230.133.34:9093/dx-sync/brm/v1/invoice/bill/serviceUsagedetails/01C303322?start=07-07-2022&end=08-13-2022,332,0,0
+1660904475181,3674,download-contract,200,,Mapp-APIs 1-1,text,true,,161417,1069,1,1,http://150.230.133.34:8089/csmart-crmservices/crm/v1/contract/download/999784,1869,0,63
+1660904479378,127,pukValidate,200,OK,Mapp-APIs 1-1,text,true,,406,641,1,1,http://10.170.171.8/webservice.php?operation=pukValidate&sessionName=138b7f5f62d8d642274ba,126,0,52
